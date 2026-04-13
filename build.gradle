@@ -10,6 +10,7 @@ buildscript {
         classpath platform("org.apache.grails:grails-bom:$grailsVersion")
         classpath "org.apache.grails:grails-data-hibernate5"
         classpath "org.apache.grails:grails-gradle-plugins"
+        classpath 'org.apache.grails:grails-data-hibernate5-dbmigration'
     }
 }
 
@@ -69,6 +70,9 @@ dependencies {
     testImplementation "org.apache.grails:grails-testing-support-web"
     testImplementation "org.mockito:mockito-core"
     testImplementation "org.spockframework:spock-core"
+    implementation 'org.apache.grails:grails-data-hibernate5-dbmigration'
+    implementation "org.liquibase:liquibase-core:4.27.0"
+    implementation "org.liquibase.ext:liquibase-hibernate5:4.27.0"
 }
 
 compileJava.options.release = 25
