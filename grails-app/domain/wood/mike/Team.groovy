@@ -1,5 +1,8 @@
 package wood.mike
 
+import grails.rest.Resource
+
+@Resource(uri='/teams')
 class Team {
 
     String name
