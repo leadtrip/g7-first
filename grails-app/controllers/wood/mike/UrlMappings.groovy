@@ -8,6 +8,8 @@ class UrlMappings {
             }
         }
 
+        "/api/riders"(resources: 'riderRest')
+
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')

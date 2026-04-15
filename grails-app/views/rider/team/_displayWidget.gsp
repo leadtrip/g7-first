@@ -1,0 +1,1 @@
+<g:render template="team/team_link" bean="${bean}" />

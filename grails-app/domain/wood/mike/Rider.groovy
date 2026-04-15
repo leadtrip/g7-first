@@ -1,10 +1,7 @@
 package wood.mike
 
-import grails.rest.Resource
-
 import java.time.LocalDate
 
-@Resource(uri='/riders')
 class Rider {
 
     String forename

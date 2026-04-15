@@ -1,0 +1,1 @@
+<g:render template="riders/rider_list" bean="${bean}" />

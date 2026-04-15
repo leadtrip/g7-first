@@ -73,7 +73,6 @@ dependencies {
     implementation 'org.apache.grails:grails-data-hibernate5-dbmigration'
     implementation "org.liquibase:liquibase-core:4.27.0"
     implementation "org.liquibase.ext:liquibase-hibernate5:4.27.0"
-    implementation 'io.github.gpc:fields'
 }
 
 compileJava.options.release = 25

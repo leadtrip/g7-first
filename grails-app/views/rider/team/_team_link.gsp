@@ -1,0 +1,1 @@
+<g:link uri="/team/show/${bean.team.id}">${bean.team.name}</g:link>
